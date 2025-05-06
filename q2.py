@@ -4,8 +4,8 @@ import csv
 years = {}
 stations = {}
 
-# Load data from CSV files for each year (1987-2004)
-for year in range(1987, 2005):
+# Load data from CSV files for each year (1986-2005)
+for year in range(1986, 2005):
     try:
         # Open the CSV file for the current year
         with open(f'temperature_data/stations_group_{year}.csv') as f:
