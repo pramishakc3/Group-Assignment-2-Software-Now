@@ -1,4 +1,11 @@
 import csv
+import os
+
+
+# Define the output directory as specified in question 2
+output_dir = 'output_directory_q2'
+if not os.path.exists(output_dir):
+    os.makedirs(output_dir)
 
 # Dictionary to hold the temperature data for each station across multiple years
 years = {}
@@ -40,7 +47,7 @@ monthly_averages = [round(total / len(stations), 2)
                     for total in monthly_averages]
 
 # Save the monthly average temperatures to a file
-with open('monthly_average_temp.txt', 'w') as f:
+with open(f'{output_dir}/monthly_average_temp.txt', 'w') as f:
     f.write("Monthly Average Temperatures:\n")
     # Write the average temperature for each month
     f.write("\n".join([f"Month {i + 1}: {avg}" for i,
@@ -63,7 +70,7 @@ for season, months in seasons.items():
     )
 
 # Save the seasonal average temperatures to a file
-with open('seasonal_average_temp.txt', 'w') as f:
+with open(f'{output_dir}/seasonal_average_temp.txt', 'w') as f:
     f.write("\n\nSeasonal Average Temperatures:\n")
     # Write the average temperature for each season
     for season, avg in season_averages.items():
@@ -78,7 +85,7 @@ largest_range = round(
     max(largest_range_station[1]) - min(largest_range_station[1]), 2)
 
 # Save the station with the largest temperature range to a file
-with open('largest_temp_range_station.txt', 'w') as f:
+with open(f'{output_dir}/largest_temp_range_station.txt', 'w') as f:
     f.write(f"Station with Largest Temperature Range:\n")
     f.write(f"{largest_range_station[0]}: {largest_range}\n")
 
@@ -93,7 +100,7 @@ warmest_station = max(station_averages.items(), key=lambda x: x[1])
 coolest_station = min(station_averages.items(), key=lambda x: x[1])
 
 # Save the warmest and coolest stations to a file
-with open('warmest_and_coolest_station.txt', 'w') as f:
+with open( f'{output_dir}/warmest_and_coolest_station.txt', 'w') as f:
     f.write("Warmest Station:\n")
     f.write(f"{warmest_station[0]}: {round(warmest_station[1], 2)}\n\n")
     f.write("Coolest Station:\n")
