@@ -7,7 +7,7 @@ This repository contains solutions to the HIT137 Group Assignment 2, including e
 ### Question 1: Text Encryption & Decryption
 - Python script: `q1.py`
 - Input file: `raw_text.txt`
-- Output files (in folder `/encrypted_output/`):
+- Output files (in folder `/output_directory_q1/`):
   - `encrypted_text.txt`
   - `decrypted_text.txt`
 
