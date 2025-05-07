@@ -2,7 +2,7 @@
 
 This repository contains solutions to the HIT137 Group Assignment 2, including encryption, temperature analysis, and recursive turtle graphics tasks.
 
----
+
 
 ### Question 1: Text Encryption & Decryption
 - Python script: `q1.py`
@@ -11,7 +11,7 @@ This repository contains solutions to the HIT137 Group Assignment 2, including e
   - `encrypted_text.txt`
   - `decrypted_text.txt`
 
----
+
 
 ### Question 2: Temperature Data Analysis
 - Python script: `q2.py`
@@ -22,14 +22,14 @@ This repository contains solutions to the HIT137 Group Assignment 2, including e
   - `largest_temp_range_station.txt`
   - `warmest_and_coolest_station.txt`
 
----
+
 
 ### Question 3: Recursive Tree with Turtle
 - Python script: `q3.py`
 - Output image in `/output_directory_q3/`:  
   - `Tree.png`
 
----
 
-### 📎 GitHub Link
+
+### GitHub Link
 Refer to the file `github_link.txt` for our repository link.
