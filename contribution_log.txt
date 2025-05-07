@@ -1,0 +1,20 @@
+Contribution Log - HIT137 Group Assignment 2
+
+All group members actively participated in the development of this assignment.
+
+- Task 1 (Encryption and Decryption):
+  All team members contributed to the design, testing, and debugging of the encryption and decryption logic. 
+  The output files (encrypted_text.txt and decrypted_text.txt) are included in the "output_directory_q1" folder.
+
+- Task 2 (Temperature Data Analysis):
+  All members worked collaboratively on analyzing seasonal temperatures, identifying temperature ranges, and generating outputs.
+  Final results are stored in the "output_directory_q2" folder.
+
+- Task 3 (Recursive Tree Pattern using Turtle Graphics):
+  The team jointly designed and tested the recursive tree generation using user inputs.
+  Output visuals and code are located in the "output_directory_q3" folder.
+
+Git Commit and Push Note:
+All group members actively contributed to the assignment and committed their work to the GitHub repository. 
+Due to some issues with pushing, the final code was pushed by the main author (Pramisha K C) and 
+ensure everything was up to date before submission.
